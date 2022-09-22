@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lato";
+    src: url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff");
+    font-display: swap;
+    font-weight: 900;
+    font-style: normal;
+}
+body {
+    font-family: "Lato";
+    font-size: 16px;
+    box-shadow: 0px 0px 7px 19px rgba(0, 0, 0, 0.2) inset;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 810px;
+    padding: 38px 0 92px;
+}
+.header {
+    margin-bottom: 40px;
+}
+.header__title {
+    font-size: 46px;
+    color: #1E212C;
+    font-weight: 900;
+    line-height: 1.3;
+}
+.main {
+    color: #424551;
+    line-height: 1.6;
+}
+.main__image {
+    max-height: 360px;
+    margin-bottom: 60px;
+}
+.main__image_keyboard {
+    
+}
+.main__content {
+}
+.main__content_title {
+    margin-bottom: 24px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.main__content-text_text {
+    margin-bottom: 48px;
+}
+.main__content_text {
+    margin-bottom: 24px;
+}
+.main__content_block {
+    padding-left: 58px;
+    margin-bottom: 48px;
+}
+.main__content_block .main__content_title {
+    text-shadow: none;
+}
+.main__content_list {
+    padding-left: 32px;
+    margin-bottom: 24px;
+}
+.main__content_items {
+}
+.main__content_item {
+}
+.footer {
+    text-align: center;
+    background-color: rgb(247, 174, 174);
+    padding-bottom: 20px;
+}
+.footer__block {
+}
+.footer__block a {
+    color: red;
+    opacity: 0.2;
+}
+.footer__title {
+    color: rgb(8, 8, 8);
+}
+.footer__cards {
+    max-width: 450px;
+    margin: 0 auto 20px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: black;
+}
+.footer__image {
+
+}
+.footer__image_item {
+max-width: 100%;
+max-height: 100%;
+border-radius: 45px 10px 45px 10px;
+}
+.footer__text {
+    color: #fff;
+}
+.footer__btn {
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 3px 1px 1px 1px  rgb(22, 199, 16);
+}
+.footer__btn_item {
+    display: block;
+    background-color: red;
+    border-radius: 10px;
+}
+.footer__btn_item a{
+    display: block;
+    padding: 10px;
+}
